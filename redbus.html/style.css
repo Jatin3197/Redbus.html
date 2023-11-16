@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body {
+  background: url("Hero.png") no-repeat;
+  
+}
+.container {
+  min-width: 100%;
+  max-height: 100%;
+ 
+}
+.navbar {
+  display: flex;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  height: 65px;
+}
+.navbar .logo {
+  padding: 2px;
+  padding-left: 180px;
+}
+.navbar .uses ul {
+  display: flex;
+}
+.navbar .uses ul li {
+  list-style: none;
+
+  padding: 20px 40px;
+}
+.navbar .uses ul li a {
+  text-decoration: none;
+  color: grey;
+  font-size: 21px;
+}
+.navbar .uses ul li a .fa-solid {
+  color: #d63939;
+}
+.navbar .uses ul li a:hover {
+  outline: 1px solid grey;
+  background-color: rgb(248, 244, 244);
+  border-radius: 6px;
+
+  outline: none;
+}
+.navbar .help ul {
+  display: flex;
+}
+.navbar .help ul li {
+  list-style: none;
+  margin: 30px;
+  margin-top: 20px;
+  position: relative;
+  left: 230px;
+}
+.navbar .help ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+.navbar .help ul li a .fa-solid {
+  color: #d63939;
+}
+.navbar .help ul li a:hover {
+  outline: 1px solid grey;
+
+  background-color: rgb(248, 244, 244);
+  border-radius: 6px;
+
+  outline: none;
+}
+.main h1 {
+  color: #fff;
+  margin: 80px 400px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 35px;
+}
+.main .list-style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 10px 10px 70px;
+}
+.main .btn-1 {
+  padding: 50px 70px;
+  border-radius: 30px 0px 0px 30px;
+  color: black;
+  background-color: #fde9e9;
+  border: 1px solid #d63939;
+  font-size: 20px;
+}
+.main .btn-2 {
+  padding: 50px 70px;
+  border: 1px solid #d63939;
+  background-color: #fde9e9;
+  color: black;
+  font-size: 20px;
+}
+.main .btn-3 {
+  padding: 27px 70px;
+  border: 1px solid #d63939;
+  background-color: #fff;
+  color: black;
+  font-size: 20px;
+} 
+.main .btn-4 {
+  padding: 45px 50px;
+  border: 1px solid #d63939;
+  background-color: #ea5454;
+  color: #fff;
+  font-size: 30px;
+  border-radius: 0px 30px 30px 0px;
+  font-weight: 700;
+}
+.main .btn-1 .fa-solid {
+  color: gray;
+}
+.main .btn-2 .fa-solid {
+  color: gray;
+}
+.main .btn-3 .fa-solid {
+  color: gray;
+}
+.main h2{
+  color: rgb(253, 253, 124);
+  margin: 50px 470px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 38px;
+  
+}
